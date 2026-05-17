@@ -1,0 +1,161 @@
+/* src/components/InstagramShowHide/index.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.app-container {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to bottom right,
+    #833ab4,
+    #fd1d1d,
+    #fcb045
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Roboto';
+}
+
+.card {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 320px;
+  padding: 30px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 25px;
+  color: #262626;
+}
+
+.input {
+  height: 42px;
+  margin-bottom: 16px;
+  padding-left: 12px;
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+.login-button {
+  height: 42px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0095f6;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.show-hide-button {
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  background-color: #833ab4;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.forgot-password {
+  text-align: center;
+  color: #385185;
+  font-size: 13px;
+  margin-top: 18px;
+  cursor: pointer;
+}
+
+/* Small Devices */
+@media screen and (min-width: 576px) {
+  .card {
+    max-width: 360px;
+    padding: 35px;
+  }
+
+  .logo {
+    font-size: 42px;
+  }
+
+  .input {
+    font-size: 15px;
+  }
+}
+
+/* Medium Devices */
+@media screen and (min-width: 768px) {
+  .card {
+    max-width: 420px;
+    padding: 45px;
+  }
+
+  .logo {
+    font-size: 52px;
+  }
+
+  .input {
+    height: 46px;
+    font-size: 16px;
+  }
+
+  .login-button,
+  .show-hide-button {
+    height: 44px;
+    font-size: 16px;
+  }
+
+  .forgot-password {
+    font-size: 15px;
+  }
+}
+
+/* Large Devices */
+@media screen and (min-width: 992px) {
+  .card {
+    max-width: 460px;
+    padding: 50px;
+  }
+
+  .logo {
+    font-size: 58px;
+  }
+
+  .input {
+    height: 50px;
+    font-size: 17px;
+  }
+
+  .login-button,
+  .show-hide-button {
+    height: 48px;
+    font-size: 17px;
+  }
+}
+
+/* Extra Large Devices */
+@media screen and (min-width: 1200px) {
+  .card {
+    max-width: 500px;
+    padding: 55px;
+  }
+
+  .logo {
+    font-size: 64px;
+  }
+}
