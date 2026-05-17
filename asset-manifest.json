@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/passwordshowhideapplication/static/css/main.04b28db1.css",
+    "main.js": "/passwordshowhideapplication/static/js/main.7a2a3b2c.js",
+    "static/js/453.39005ebe.chunk.js": "/passwordshowhideapplication/static/js/453.39005ebe.chunk.js",
+    "index.html": "/passwordshowhideapplication/index.html",
+    "main.04b28db1.css.map": "/passwordshowhideapplication/static/css/main.04b28db1.css.map",
+    "main.7a2a3b2c.js.map": "/passwordshowhideapplication/static/js/main.7a2a3b2c.js.map",
+    "453.39005ebe.chunk.js.map": "/passwordshowhideapplication/static/js/453.39005ebe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04b28db1.css",
+    "static/js/main.7a2a3b2c.js"
+  ]
+}
